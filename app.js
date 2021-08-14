@@ -12,10 +12,10 @@ app.get('/', (req, res) => {
     let date = new Date()
     let dateArray = date.toString().split(' ')
     
-    if (dateArray[1] === 'Jul' && dateArray[2] === '16') {
-        res.render('feb23.ejs')
+    if (dateArray[1] === 'Feb' && dateArray[2] === '29') {
+        res.render('feb29.ejs', {date: dateArray.slice(0,3).join(" ")})
     } else {
-        res.render('index.ejs')
+        res.render('index.ejs', {date: dateArray.slice(0,3).join(" ")})
     }
 })
 

@@ -1,10 +1,16 @@
 const container = document.querySelector('.container')
-container.setAttribute('style', 'background-color: black;');
 
-const date = document.querySelector('.date')
-date.textContent = new Date()
+const date = document.querySelector('.date');
+
+const setDate = () => {
+    let dateObj = new Date()
+    let dateArray = dateObj.toString().split(' ').slice(0,5).join(" ")
+    date.textContent = dateArray
+};
+
+setDate()
 
 setInterval(() => {
-    date.textContent = new Date()
+    setDate()
 }, 1000)
 
