@@ -2,4 +2,4 @@
 
 Come back on February 29 2024 [HERE](https://Is-It-February-29.ronald-luo.repl.co)
 
-Check out my other projects: [BLOG](https://www.ronald-luo.com/100-websites/)
+Check out my other projects: [HERE](https://www.ronald-luo.com/100-websites/)
